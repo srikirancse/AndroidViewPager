@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:src="@drawable/hollywood"
+        android:layout_gravity="top"/>
+
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="CLICK ON A MOVIE:"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/button_frozen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Frozen"
+        android:backgroundTint="#FFB74D"/>
+
+    <Button
+        android:id="@+id/button_starwar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Star Wars"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#A1887F"/>
+
+    <Button
+        android:id="@+id/button_lionking"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Lion King"
+        android:backgroundTint="#FFB74D"/>
+
+    <Button
+        android:id="@+id/button_transformer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Transformers"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#A1887F"/>
+
+    <Button
+        android:id="@+id/button_titanic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Titanic"
+        android:backgroundTint="#FFB74D"/>
+
+
+</LinearLayout>
